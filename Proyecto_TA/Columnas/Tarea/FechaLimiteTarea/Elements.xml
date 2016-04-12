@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{9fd0aa35-30ab-4234-af7c-75baed142f87}"
+       Name="FechaLimiteTarea"
+       DisplayName="Fecha Limite Tarea"
+       Type="DateTime"
+       Required="FALSE"
+       Group="Custom Site Columns">
+  </Field>
+</Elements>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{d26a0aee-333b-44d7-b22f-9165020e6faf}"
+       Name="NotaMedia"
+       DisplayName="Nota Media"
+       Type="Double"
+       Required="FALSE"
+       Group="Custom Site Columns">
+  </Field>
+</Elements>

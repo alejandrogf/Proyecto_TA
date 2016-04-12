@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100F35CBD4A742348B6A5DF8F1254F51BD0" Name="AlumnoContent" Group="Custom Content Types" Description="My Content Type" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{6d8dd299-7579-49d4-9baf-9faf475c60e0}" DisplayName="Apellidos Alumno" Required="FALSE" Name="ApellidosAlumno" />
+      <FieldRef ID="{1b588a8b-a7ab-421d-ab41-3529f43001a2}" DisplayName="Codigo Alumno" Required="FALSE" Name="CodigoAlumno" />
+      <FieldRef ID="{308088a9-8c2d-4f05-b6eb-c94115a802a4}" DisplayName="Nombre Alumno" Required="FALSE" Name="NombreAlumno" />
+      <FieldRef ID="{ca152df4-0ed1-438d-bbbe-806329152174}" DisplayName="Nombre Completo Alumno" Required="FALSE" Name="NombreCompletoAlumno" />
+      <FieldRef ID="{22db0527-fd91-48f0-804e-d941695ec8dd}" DisplayName="Curso" Required="FALSE" Name="Curso" />
+      <FieldRef ID="{538d3b99-76c2-4ba3-a779-c3c37d2c678d}" DisplayName="DNI" Required="FALSE" Name="DNI" />
+      <FieldRef ID="{d26a0aee-333b-44d7-b22f-9165020e6faf}" DisplayName="Nota Media" Required="FALSE" Name="NotaMedia" />
+    </FieldRefs>
+  </ContentType>
+</Elements>
