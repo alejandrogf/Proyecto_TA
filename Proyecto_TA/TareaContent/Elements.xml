@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <!-- Parent ContentType: Item (0x01) -->
-  <ContentType ID="0x0100354A90B1DA744E4C8801BB9A645B3B09" Name="CursoContent" Group="Custom Content Types" Description="My Content Type" Inherits="TRUE" Version="0">
+  <ContentType ID="0x0100354A90B1DA744E4C8801BB9A645B3B09" Name="TareaContent" Group="Custom Content Types" Description="My Content Type" Inherits="TRUE" Version="0">
     <FieldRefs>
       <FieldRef ID="{bbb840ea-dd14-4a86-bc60-d0193ec244db}" DisplayName="Nombre Tarea" Required="FALSE" Name="NombreTarea" />
       <FieldRef ID="{9fd0aa35-30ab-4234-af7c-75baed142f87}" DisplayName="Fecha Limite Tarea" Required="FALSE" Name="FechaLimiteTarea" />

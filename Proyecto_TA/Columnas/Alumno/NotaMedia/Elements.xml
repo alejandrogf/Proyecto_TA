@@ -4,7 +4,7 @@
        ID="{d26a0aee-333b-44d7-b22f-9165020e6faf}"
        Name="NotaMedia"
        DisplayName="Nota Media"
-       Type="Double"
+       Type="Number"
        Required="FALSE"
        Group="Custom Site Columns">
   </Field>

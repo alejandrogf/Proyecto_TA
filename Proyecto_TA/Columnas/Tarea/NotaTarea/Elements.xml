@@ -4,7 +4,7 @@
        ID="{e0515401-11ab-4bea-842f-e78894b21130}"
        Name="NotaTarea"
        DisplayName="Nota Tarea"
-       Type="Double"
+       Type="Decimal"
        Required="FALSE"
        Group="Custom Site Columns">
   </Field>

@@ -43,6 +43,12 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Features\Feature2\Feature2.Template.xml">
+      <DependentUpon>Feature2.feature</DependentUpon>
+    </Content>
+    <Content Include="ListaTarea\Elements.xml" />
+    <Content Include="ListaTarea\Schema.xml" />
+    <Content Include="ListaTarea\TareaListaInstance\Elements.xml" />
     <None Include="AlumnoContent\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{11750c19-494d-491d-85c4-28c01d9fa4ac}</SharePointProjectItemId>
     </None>
@@ -79,8 +85,17 @@
     <None Include="Columnas\Tarea\NotaTarea\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{bebdf627-74bd-4f1a-8291-c4f5f3728a5f}</SharePointProjectItemId>
     </None>
-    <None Include="CursoContent\SharePointProjectItem.spdata">
+    <None Include="TareaContent\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{00d9beb8-e3dc-4da4-9d32-d9f2d2b490ce}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Feature2\Feature2.feature">
+      <FeatureId>{682db0ff-f045-4e51-8dc7-9ae8c103dddf}</FeatureId>
+    </None>
+    <None Include="ListaAlumno\ListaAlumnoInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{dcadac93-f11f-42a0-98cf-e83c7e6ea3fb}</SharePointProjectItemId>
+    </None>
+    <None Include="ListaAlumno\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{dbc5789b-98d0-4bc4-8382-6122898f83ba}</SharePointProjectItemId>
     </None>
     <None Include="packages.config" />
     <None Include="Pages\SharePointProjectItem.spdata">
@@ -98,9 +113,18 @@
     <Content Include="Columnas\Tarea\NombreTarea\Elements.xml" />
     <Content Include="Columnas\Alumno\NotaMedia\Elements.xml" />
     <Content Include="Columnas\Tarea\NotaTarea\Elements.xml" />
-    <Content Include="CursoContent\Elements.xml" />
+    <Content Include="TareaContent\Elements.xml" />
+    <Content Include="ListaAlumno\Elements.xml" />
+    <Content Include="ListaAlumno\ListaAlumnoInstance\Elements.xml" />
+    <Content Include="ListaAlumno\Schema.xml" />
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
+    <None Include="ListaTarea\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{82dd1e93-6338-4129-8489-7ad915d35370}</SharePointProjectItemId>
+    </None>
+    <None Include="ListaTarea\TareaListaInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{176bb7d1-87ac-4ee2-9efb-84317d20a559}</SharePointProjectItemId>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-1.9.1.min.map" />
